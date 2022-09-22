@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device=width,initial-scale=1.0">
+    <meta name="description" content="Modeling of Complex Systems">
+    <meta name="author" content="ICSM">
+    <title>Institute for Complex Systems Modeling | Program</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Jquery link-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+  $(this).on("click", ".koh-faq-question", function() {
+    $(this).parent().find(".koh-faq-answer").toggle();
+    $(this).find(".fa").toggleClass('active');
+  });
+});
+</script>
+  </head>
+  <body>
+    <!--<section class="header"> -->
+    <header>
+      <div class="container">
+      <nav>
+        <div id="logo">
+          <h2><a href="../index.html"><img style="vertical-align:middle" src="../img/LogoICSM.png" height="60px" width="60px" alt="logo" />  Institute for Complex Systems Modeling</h2>
+        </div>
+        <div class="nav-links" id="NavLinks">
+          <!---We need to add a click event on the burger... a script in Java-->
+          <i class="fa fa-times" onclick="HideMenu()"></i>
+          <ul>
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../about.html">About</a></li>
+              <li><a href="../solutions.html">Solutions</a></li>
+              <li><a href="../contact.html">Contact</a></li>
+              <li><a href="../events.html">Events &amp Outreach</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="ShowMenu()"></i>
+      </nav>
+    </div>
+  </header>
+
+<section class="showcaseCimpa">
+  <div class="container">
+    <h1>CIMPA 2023 Mathematical and Statistical Modeling of Complex Systems</h1>
+    <h1>CIMPA 2023 Modélisation mathématique et statistique de systèmes complexes</h1>
+    <h1>النمذجة الرياضية والإحصائية للأنظمة المعقدة CIMPA 2023</h1>
+    <h2>N'Djamena, 2-13 January 2023 -- 2023 نجامينا ، 2-13 يناير </h2>
+    </div>
+    <!-- SIDEBAR MENU-->
+    <div id="side">
+      <ul>
+        <li><a href="cimpa2023.html">Accueil/Home</a></li>
+        <li><a href="registrations.html">Inscription/Registration</a></li>
+        <li><a href="program.html">Programme/Program</a></li>
+        <li><a href="info.html">Information/Information</a></li>
+        <li><a href="committees.html">Comités/Committees</a></li>
+        <li><a href="participants.html">Liste des Participant(e)s/Participant list</a></li>
+      </ul>
+  </div>
+    <!-- End Sidebar Menu --->
+    <div id="maincimpa">
+      <h3> Programme scientifique -- Scientific Programm</h3>
+
+      <p>Les cours seront dispensés en anglais ou en français / Courses will be taught in either English or French.</p>
+
+      <!--
+      <p id="visible">Click Here
+      </p>
+      <p id="invisible">Click Here
+      </p>
+
+    -->
+      <dl>
+    <dt>Gauthier Sallet (Université de Lorraine, France)</dt>
+    <dd>      <div class="koh-faq">
+          <div class="koh-faq-question">
+            <i class="fa fa-chevron-right" aria-hidden="true"></i>
+            <span class="koh-faq-question-span"> Équations différentielles et identification de paramètres. Application à l'épidémiologie </span>
+          </div>
+          <div class="koh-faq-answer">
+            Introduction à Scilab: manipuler des matrices, écrire un programme,
+             récupérer des données. Simulation des EDOs avec Scilab, optimisation et identification de paramètres.
+          </div>
+        </div>
+      </dd>
+
+    <dt>Mahamat Ali Issaka (Université de N’Djamena, Tchad)</dt>
+    <dd>
+      <div class="koh-faq">
+        <div class="koh-faq-question">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <span class="koh-faq-question-span"> Modèles statistiques du vivant. </span>
+        </div>
+        <div class="koh-faq-answer">
+          Il s'agit d'introduire les Modèles statistiques qui interviennent dans la modélisation des phénomènes médicales et météorologiques surtout en détection de rupture. En effet, de manière particulière, nous aborderons les détections de rupture dans les données electrophysiologiques en caractérisant les paramètres déterminants pour une meilleure précision du point de départ d’une crise d’épilepsie par exemple.
+ Le cours sera bouclé avec des simulations et applications sur des phénomènes réels.
+Les notions essentielles du Logiciel R qui est très convivial pour l’exploration ainsi que la conception des données discrètes sera introduit.
+ Par la suite, nous ferons des simulations sur les lois et la théorie des probabilités.
+  Enfin, nous énumérerons quelques package conçu pour des données réelles en lien avec le vivant avec des exemples pratiques.
+
+        </div>
+      </div></dd>
+
+    <dt>Sam Behseta (California State University at Fullerton, USA)</dt>
+    <dd>
+      <div class="koh-faq">
+        <div class="koh-faq-question">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <span class="koh-faq-question-span"> Data Analysis and Machine Learning. </span>
+        </div>
+        <div class="koh-faq-answer">
+          The course has four primary objectives: (1) Introduction of modern nonparametric statistical methods, especially resampling approaches for exploratory and inferential statistics, (2) introduction to modern statistical and machine learning approaches, including a host of techniques associated with supervised and  unsupervised learning, (3) Introduction to Bayesian machinery for classification, and (4) Introduction and application of statistical software, in particular the programming language R and its related packages in the context of objectives 1 to 3.
+        </div>
+      </div>
+      </dd>
+    <dt>Ngarkodje Ngarasta (Université de N’Djamena, Tchad)</dt>
+    <dd>
+      <div class="koh-faq">
+        <div class="koh-faq-question">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <span class="koh-faq-question-span">Alienor Method.</span>
+        </div>
+        <div class="koh-faq-answer">
+
+        </div>
+      </div>
+      </dd>
+    <dt>Julien Arino (University of Manitoba, Winnipeg, Canada)</dt>
+    <dd>
+      <div class="koh-faq">
+        <div class="koh-faq-question">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <span class="koh-faq-question-span">Mathematical Epidemiology</span>
+        </div>
+        <div class="koh-faq-answer">
+
+        </div>
+      </div>
+      </dd>
+    <dt>Nicholas Brubaker (California State University at Fullerton, USA)</dt>
+    <dd>
+      <div class="koh-faq">
+        <div class="koh-faq-question">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <span class="koh-faq-question-span">Calculus of Variations and its Applications. </span>
+        </div>
+        <div class="koh-faq-answer">
+          Solving optimization problems is a hallmark of everyday life. The same is true with mathematics and science. Nearly all modern quantitative fields use optimization techniques, collectively known as variational calculus, to answer simple, specific queries; or to unify a collection of common problems; or to build a cohesive, govern theory, such as in classical mechanics. Variational calculus generalizes ideas of standard calculus and, thus similarly, yields robust methods for calculating and deriving insight. This course covers the fundamentals of differentiation in function spaces necessary for minimizing functionals and provides examples deriving from differential equations and physics.
+        </div>
+      </div>
+    </dd>
+    <dt>Khadija Niri (Université Hassan II, Casablanca, Maroc)</dt>
+    <dd>
+      <div class="koh-faq">
+        <div class="koh-faq-question">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <span class="koh-faq-question-span">Équations différentielles en retard: application en dynamique de population et épidémiologie. </span>
+        </div>
+        <div class="koh-faq-answer">
+
+        </div>
+      </div>
+      </dd>
+    <dt>Yves Dumont (Centre de Coopération Internationale en Recherche Agronomique pour le Développement - CIRAD, Montpellier, France)</dt>
+    <dd>
+      <div class="koh-faq">
+        <div class="koh-faq-question">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <span class="koh-faq-question-span">Sur la modélisation et l'analyse mathématique pour lutter contre les maladies et les ravageurs dans les cultures.</span>
+        </div>
+        <div class="koh-faq-answer">
+          La sécurité alimentaire est un des enjeux majeurs des décennies à venir, afin de permettre à toutes les populations d'avoir accès à de la nourriture en quantité suffisante, notamment en Afrique. La lutte contre les ravageurs et les maladies dans les cultures est donc vitale. Si l'expérimentation et l'observation doivent aider les experts à développer et mettre en place des solutions appropriées, la modélisation mathématique permet d'aller plus loin et plus vite en testant in-silico des stratégies de lutte ou de contrôle permettant de limiter les expérimentations et, même, de mieux cibler les paramètres et variables d'intérêts à suivre sur le terrain. Cela permet également des gains en temps et en moyens. L'objet de ce cours sera de présenter des modèles mathématiques sur ces questions, les outils mathématiques pour analyser ces modèles, les outils numériques pour réaliser des simulations. On fera le lien entre les résultats mathématiques et les questions agronomiques. On s'intéressera aux limites des théories actuelles et les défis (mathématiques) qu'il faudra relever pour résoudre certains problèmes.
+        </div>
+      </div>
+      </dd>
+    <dt>Tewfik Sari (Institut national de recherche pour l'agriculture, l'alimentation et l'environnement — INRAE, Montpellier, France) </dt>
+    <dd>
+      <div class="koh-faq">
+        <div class="koh-faq-question">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <span class="koh-faq-question-span">Best Operating Conditions for Biogas Production in some simple Anaerobic Digestion Models.</span>
+        </div>
+        <div class="koh-faq-answer">
+          Anaerobic digestion is a well-known and established technology for treating waste in the methanisation of sewage sludge from waste water treatment plants. Anaerobic digestion enables the water industry to treat waste water as a resource for generating energy and recovering valuable by-products. In the context of renewable energy, it has now become an attractive alternative to fossil carbon. Anaerobic digestion is a complex biological process in which organic material is converted into biogas (methane) in an environment without oxygen. The complexity of the anaerobic digestion process has motivated the development of mechanistic mathematical models, such as the widely used Anaerobic Digestion Model Model No. 1 (ADM1) of the International Water Association. This model is a differential-algebraic set of equations (DAE) and has a large number of state variables and parameters. It is impossible to obtain an analytical characterization of the steady states and to describe the operating diagram, that is to say, to identify  the asymptotic behavior of existing steady-states as a function of the operating parameters (substrates inflow concentrations and dilution rate). Due to the analytic intractability of the full ADM1, work has been made towards the construction of simpler models that preserve biological meaning. The aim of this course is to present these simple models and to show how they can be used to optimize biogas production.
+        </div>
+      </div>
+      </dd>
+    <dt>Stéphanie Portet (University of Manitoba, Winnipeg, Canada)</dt>
+    <dd>
+      <div class="koh-faq">
+        <div class="koh-faq-question">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <span class="koh-faq-question-span">Model Calibration and Selection.</span>
+        </div>
+        <div class="koh-faq-answer">
+          A powerful investigative tool in mathematical biology is to consider not a single mathematical model but a collection of models designed to explore different working hypotheses and select the best model in that collection. Models depend on parameters that must be estimated using observations; the best model has then to be identified based on available observations. Hence, model calibration and selection, which are intrinsically linked, are essential steps of the workflow. Some procedures for model calibration and a criterion of model selection based on experimental data are described. Rough derivation, practical technique of computation and use are detailed.
+        </div>
+      </div>
+    </dd>
+    <dt>Jane Heffernan (York University, Toronto, Canada) </dt>
+    <dd>
+      <div class="koh-faq">
+        <div class="koh-faq-question">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <span class="koh-faq-question-span">Modelling Immunity.</span>
+        </div>
+        <div class="koh-faq-answer">
+          Immunity is gained from infection and/or vaccination. Immunity is incorporated into epidemiological models using recovered, vaccinated, or other types of ‘immune’ classes, but the assumptions and characteristics surrounding these classes is not always informed by immune system biology. This course includes an introduction to the immune system, virus infection dynamics, and to mathematical models of the immune response. Model results of the immune system and vaccine or disease outcomes in-host will be discussed. The results will be extended to the epidemiological context to better inform the structure of the ‘immune’ classes in epidemiological models.
+        </div>
+      </div></dd>
+    <dt>Bedreddine Ainseba (Université de Bordeaux, France) </dt>
+    <dd>
+      <div class="koh-faq">
+        <div class="koh-faq-question">
+          <i class="fa fa-chevron-right" aria-hidden="true"></i>
+          <span class="koh-faq-question-span">Modélisation et contrôle de la dynamique des insectes nuisibles.</span>
+        </div>
+        <div class="koh-faq-answer">
+          Dans cet exposé on s’intéressera aux insectes nuisibles tels que les ravageurs de cultures agricoles ou les moustiques vecteurs de maladies humaines.
+Dans un premier temps on discutera les différents modèles utilisés dans la littérature pour modéliser la dynamique de ces insectes.
+On décrira ensuite les modèles de croissance d’insectes en fonction des conditions exogènes telles que la température, l’humidité et la pluviométrie.
+On analysera mathématiquement ces modèles structurés non locaux et on s’intéressera au comportement en temps long.
+Dans la dernière partie on abordera les problèmes de contrôle des insectes nuisibles.
+        </div>
+      </div></dd>
+</dl>
+  </div>
+</section>
+<!--Funded By-->
+
+<section id="partners">
+<!--  <h3>We recognize the support of the following partners:</h3>-->
+   <div class="container">
+    <!--CIMPA box-->
+    <div class="box">
+      <img src="../img/cimpa-carre.jpg">
+      <p>Centre International de Mathématiques Pures et Appliquées</p>
+      <!--<p>Praesent aliquam mauris sed placerat finibus. Praesent aliquam mauris sed.</p>-->
+    </div>
+    <!-- Predictive Analytics Box-
+    <div class="box">
+      <img src="./images/analytics_icon.png">
+      <h3>Predictive Analytics</h3>
+      <p>Praesent aliquam mauris sed placerat finibus. Praesent aliquam mauris sed.</p>
+    </div>
+    <!- Web Development Box-->
+    <div class="box"><img src="../img/csuf-seal.png" width="650" height="90">
+      <p>California State University, Fullerton</p>
+      <!--<p>Praesent aliquam mauris sed placerat finibus. Praesent aliquam mauris sed.</p>-->
+    </div>
+    <!--CNRD-->
+    <div class="box"><img src="../img/CDC.png">
+      <p>International Mathematical Union</p>
+      <!--<p>Praesent aliquam mauris sed placerat finibus. Praesent aliquam mauris sed.</p>-->
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<!--- Footer for IMSYCOM --->
+<footer>
+<p>ICSM, Copyright &copy; 2022</p>
+</footer>
+<!---javascript for Toggle Menu--->
+    <script type="text/javascript">
+      var NavLinks = document.getElementById('NavLinks');
+
+      function ShowMenu(){
+        NavLinks.style.right = "0";
+      }
+      function HideMenu(){
+        NavLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device=width,initial-scale=1.0">
+    <meta name="description" content="Institute for Complex Systems Modeling ">
+    <meta name="author" content="ICSM">
+    <title>Institute for Complex Systems Modeling | Solutions</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  </head>
+  <body>
+    <!--<section class="header"> -->
+    <header>
+     <div class="container">
+      <nav>
+        <div id="logo">
+        <h2><a href="index.html"><img style="vertical-align:middle" src="img/LogoICSM.png" height="60px" width="60px" alt="logo" />  Institute of Complex Systems Modeling</h2>
+        </div>
+        <div class="nav-links" id="NavLinks">
+          <!---We need to add a click event on the burger... a script in Java-->
+          <i class="fa fa-times" onclick="HideMenu()"></i>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="solutions.html" class="active">Solutions</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="events.html">Events &amp Outreach</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="ShowMenu()"></i>
+      </nav>
+    </div>
+  </header>
+<section id="showcase">
+  <div class="container">
+    <h1> Solutions for scientists, entrepreneurs and investors.</h1>
+    <p> &#x25cf; We use state of art quantitative and qualitative techniques to make accurate predictions and help take better. </p>
+      <p>&#x25cf;
+        We accompany researchers in promoting their results and inventions.
+       </p>
+       <p>&#x25cf;
+         We design and build models that are custumized to serve a business's unique needs.
+        </p>
+      <p> &#x25cf; The world is changing at a breakneck pace and we are faced to meet the resulting challenges. Thus, the ability to describe in quantitative manners a natural phenomenon to gain insights on its possible behavior has become an increasingly important tool in modern society.
+      We aim to develop mathematical tools and simulations to address these timely challenges.</p>
+    </div>
+</section>
+<!--- Footer for IMSYCOM --->
+<footer>
+<p>ICSM, Copyright &copy; 2022</p>
+</footer>
+<!---javascript for Toggle Menu--->
+    <script type="text/javascript">
+      var NavLinks = document.getElementById('NavLinks');
+
+      function ShowMenu(){
+        NavLinks.style.right = "0";
+      }
+      function HideMenu(){
+        NavLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>

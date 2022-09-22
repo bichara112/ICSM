@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device=width,initial-scale=1.0">
+    <meta name="description" content="Modeling of Complex Systems">
+    <meta name="author" content="ICSM">
+    <title>Institute for Complex Systems Modeling | Events</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+  </head>
+  <body>
+    <!--<section class="header"> -->
+    <header>
+      <div class="container">
+      <nav>
+        <div id="logo">
+          <h2><a href="index.html"><img style="vertical-align:middle" src="img/LogoICSM.png" height="60px" width="60px" alt="logo" />  Institute of Complex Systems Modeling</h2>
+          </div>
+        <div class="nav-links" id="NavLinks">
+          <!---We need to add a click event on the burger... a script in Java-->
+          <i class="fa fa-times" onclick="HideMenu()"></i>
+          <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="solutions.html">Solutions</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="events.html" class="active">Events &amp Outreach</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="ShowMenu()"></i>
+      </nav>
+    </div>
+  </header>
+<section id="showcase">
+  <div class="container">
+    <h1>Upcoming Events</h1>
+    <h3> &#x25cf; 2-13 January 2023: N'Djamena 2023 CIMPA Research School on <em>Mathematical and Statistical Modeling of Complex Systems.</em></h3>
+      <p> For more details, click <a href="cimpa2023/cimpa2023.html">here</a>.</p>
+    </div>
+</section>
+<!--- Footer for IMSYCOM --->
+<footer>
+<p>ICSM, Copyright &copy; 2022</p>
+</footer>
+<!---javascript for Toggle Menu--->
+    <script type="text/javascript">
+      var NavLinks = document.getElementById('NavLinks');
+
+      function ShowMenu(){
+        NavLinks.style.right = "0";
+      }
+      function HideMenu(){
+        NavLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
