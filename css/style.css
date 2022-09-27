@@ -367,14 +367,14 @@ div#side ul a:hover{
 }
 
 
-@media only screen and (min-width : 150px) and (max-width : 780px) {
+@media screen and (min-width : 150px) and (max-width : 780px) {
   div#side
   {
     width:80%;
     float: none;
     margin:auto;
   }}
-  @media only screen and (min-width : 150px) and (max-width : 780px) {
+  @media screen and (min-width : 150px) and (max-width : 780px) {
     .language
     {
       width:30%;
